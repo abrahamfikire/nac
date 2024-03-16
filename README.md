@@ -19,7 +19,7 @@ Install kernel development package:
 
 yum install kernel-devel-$(uname -r)
 
-
+from the package https://www.packetfence.org/downloads/PacketFence/ 
 sudo yum localinstall http://packetfence.org/downloads/PacketFence/RHEL7/packetfence-release-7.stable.noarch.rpm
 
 
