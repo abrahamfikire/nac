@@ -27,4 +27,5 @@ sudo yum localinstall http://packetfence.org/downloads/PacketFence/RHEL7/packetf
 Once the repository is defined, you can install PacketFence with all its dependencies, and the required external services (Database server, DHCP server, RADIUS server) using:
 
 yum install --enablerepo=packetfence packetfence
+
 Once installed, the Web-based configuration interface will automatically be started. You can access it from https://@ip_of_packetfence:1443/
